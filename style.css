@@ -34,7 +34,7 @@ body {
 }
 
 .line {
-  width: 100%;
+  width: 80%;
   outline-style: solid;
   outline-width: 1px;
   transform: translateY(-12px);
@@ -65,18 +65,6 @@ body {
 }
 
 #title {
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  top: 0; */
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  z-index: 10;
   height: 50vh;
   display: flex;
   align-items: center;
