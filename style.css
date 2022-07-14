@@ -40,15 +40,15 @@ body {
 }
 
 .line {
-  width: 80%;
-  outline-style: solid;
-  outline-width: 1px;
+  width: 100%;
+  height: 2px;
+  margin: -2px;
   transform: translateY(-12px);
 }
 
 .step {
-  width: 60vw;
-  left: 130px;
+  width: calc(100% - 160px);
+  left: 140px;
   position: absolute;
   padding-top: 10px;
   text-align: left;

@@ -42,7 +42,9 @@ for (let i = 0; i < 1500; i++) {
     const div = document.createElement("div");
     div.classList.add("line");
     const style = {
-      "outline-color": `hsla(${Math.floor(i * 0.3)}, 70%, 70%, 1)`,
+      background: `linear-gradient(90deg, hsla(${Math.floor(
+        i * 0.3
+      )}, 70%, 70%, 1) 0%, black 100%)`,
     };
     Object.assign(div.style, style);
     content.appendChild(div);
