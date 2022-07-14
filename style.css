@@ -3,6 +3,12 @@ body {
   color: white;
 }
 
+.profile {
+  clip-path: circle(40%);
+  height: 100px;
+  margin-bottom: 10px;
+}
+
 .colored {
   background: rgb(255, 0, 0);
   background: linear-gradient(
